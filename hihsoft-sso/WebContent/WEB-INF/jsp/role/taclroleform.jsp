@@ -93,7 +93,7 @@
 							</fmt:message>
 						</td>
 						<td><input type="text"  id="rolename" name="rolename" class="validate[required,maxSize[20]] text"
-							value="${taclRole==null?"":taclRole.rolename}"/><font
+							value="${taclRole==null?'':taclRole.rolename}"/><font
 							color="red">**</font></td>
 							<td><fmt:message key="taclrole.rolesort">
 						</fmt:message></td>
