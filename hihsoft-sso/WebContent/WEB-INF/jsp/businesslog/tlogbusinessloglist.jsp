@@ -78,12 +78,12 @@
 				<td align="right"><fmt:message key="tlogbusinesslog.userid" />
 				</td>
 				<td><input type="text" class="text" name="srh_userid"
-					value="${userid==null?"":userid}"></td>
+					value="${userid}"></td>
 					
 				<td align="right"><fmt:message key="tlogbusinesslog.orgid" />
 				</td>
 				<td><input type="text" class="text" name="srh_orgid"
-					value="${orgid==null?"":orgid}"/>
+					value="${orgid}"/>
 				</td>
 			</tr>
 			<tr>
@@ -91,15 +91,15 @@
 				</td>
 				<td><input type="text" name="srh_beginDate"
 					onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})"
-					value="${beginDate==null?"":beginDate}"/> 至 <input type="text"
+					value="${beginDate}"/> 至 <input type="text"
 					name="srh_endDate"
 					onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})"
-					value="${endDate==null?"":endDate}"/>
+					value="${endDate}"/>
 				</td>
 				<td align="right"><fmt:message key="tlogbusinesslog.custip" />
 				</td>
 				<td><input type="text" class="text" name="srh_custip"
-					value="${custip==null?"":custip}"/>
+					value="${custip}"/>
 				</td>
 			</tr>
 		</table>

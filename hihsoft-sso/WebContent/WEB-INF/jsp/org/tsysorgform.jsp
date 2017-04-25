@@ -110,9 +110,8 @@
 							</td>
 							<td><fmt:message key="tsysorg.parentorgid"></fmt:message>
 							</td>
-							<td><input id="parentorgid" name="parentorgid"
-								value="${parentorgid==null?(org==null?"
-								":org.parentorgid):parentorgid}" readOnly />
+							<td>
+								<input id="parentorgid" name="parentorgid" value="${org.parentorgid}" readOnly />
 							</td>
 							
 						</tr>

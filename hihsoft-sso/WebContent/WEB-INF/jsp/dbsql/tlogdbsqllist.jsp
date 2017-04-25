@@ -62,12 +62,12 @@
 				<td align="right"><fmt:message key="tlogdbsql.userid" />
 				</td>
 				<td><input type="text" class="text" name="srh_userid"
-					value="${userid==null?"":userid}"></td>
+					value="${userid}"></td>
 					
 				<td align="right"><fmt:message key="tlogdbsql.tableName" />
 				</td>
 				<td><input type="text" class="text" name="srh_tableName"
-					value="${tableName==null?"":tableName}"/>
+					value="${tableName}"/>
 				</td>
 			</tr>
 			<tr>
@@ -75,15 +75,15 @@
 				</td>
 				<td><input type="text" name="srh_beginDate"
 					onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})"
-					value="${beginDate==null?"":beginDate}"/> 至 <input type="text"
+					value="${beginDate}"/> 至 <input type="text"
 					name="srh_endDate"
 					onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})"
-					value="${endDate==null?"":endDate}"/>
+					value="${endDate}"/>
 				</td>
 				<td align="right"><fmt:message key="tlogdbsql.columes" />
 				</td>
 				<td><input type="text" class="text" name="srh_columes"
-					value="${columes==null?"":columes}"/>
+					value="${columes}"/>
 				</td>
 			</tr>
 		</table>

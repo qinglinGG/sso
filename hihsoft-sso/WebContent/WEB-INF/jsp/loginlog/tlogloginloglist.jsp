@@ -60,12 +60,12 @@ $(function() {
 				<td align="right"><fmt:message key="tlogloginlog.userid" />
 				</td>
 				<td><input type="text" class="text" name="srh_userid"
-					value="${userid==null?"":userid}">
+					value="${userid}">
 				</td>
 				<td align="right"><fmt:message key="tlogloginlog.orgid" />
 				</td>
 				<td><input type="text" class="text" name="srh_orgid"
-					value="${orgid==null?"":orgid}"/>
+					value="${orgid}"/>
 				</td>
 			</tr>
 		 	<tr>
@@ -73,14 +73,14 @@ $(function() {
 				</td>
 				<td><input type="text" name="srh_beginDate"
 					onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})"
-					value="${beginDate==null?"":beginDate}"/>
+					value="${beginDate}"/>
 				至
 				<input type="text" name="srh_endDate"
 					onfocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})"
-					value="${endDate==null?"":endDate}"/></td>
+					value="${endDate}"/></td>
 				<td align="right"><fmt:message key="tlogloginlog.ipaddr" />
 				</td>
-				<td><input type="text" class="text" name="srh_ipaddr" value="${ipaddr==null?"":ipaddr}"/></td>
+				<td><input type="text" class="text" name="srh_ipaddr" value="${ipaddr}"/></td>
 			</tr>
 		</table>
 		<div class="easyui-layout" style="border: none;" fit="true" id="container">
